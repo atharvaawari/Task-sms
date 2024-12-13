@@ -1,0 +1,59 @@
+
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+  width: 100%;
+  margin: auto;
+}
+
+.table-container {
+  max-width: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiTable-root {
+  width: 80%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.MuiTableCell-root {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.MuiTableRow-root:hover {
+  background-color: #f1f1f1;
+}
+
+.MuiIconButton-root {
+  margin: 0 5px;
+  color: #2196F3; 
+}
+
+.MuiIconButton-root:hover {
+  background-color: rgba(33, 150, 243, 0.1); 
+}
+
+.MuiIconButton-root + .MuiIconButton-root {
+  color: #f44336;
+}
+
+.MuiIconButton-root + .MuiIconButton-root:hover {
+  background-color: rgba(244, 67, 54, 0.1); 
+}
+
+
+.MuiTableCell-root button {
+  padding: 5px;
+}
